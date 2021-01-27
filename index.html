@@ -10,7 +10,40 @@
     <link rel="stylesheet" href="Portafolio.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <style>
-        @media screen and (min-width: 30em) and (max-width: 60em)  {
+        @media screen and (max-width: 30em)  {
+            #navbar{
+                display: block;
+            }
+
+            ul{
+                display: flex;
+                justify-content: center;
+                padding-left: 0px;
+            }
+
+            #navbar a p{
+                font-size: 1.5rem;
+                padding: 1rem 1rem;
+                margin: 0;
+                color: white;
+                font-weight: 700;
+                transition: transform 0.3s ease-out;
+                box-sizing: border-box;
+            }
+
+            #welcome-section-title{
+                font-size:3rem;
+                font-weight: 700;
+                margin: 0;
+            }
+
+            #welcome-section-subtitle{
+                color: #B60D35;
+                font-size: 1rem;
+                font-weight: 100;
+                font-style: italic;
+                margin: 0;
+            }
         }
     </style>
 </head>
@@ -22,7 +55,7 @@
     <nav id="navbar">
         <ul>
             <li><a href="#welcome-section"><p>About</p></a></li>
-            <li><a href="#projects"><p>My Work</p></a></li>
+            <li><a href="#projects"><p>Projects</p></a></li>
             <li><a href="#contact"><p>Contact</p></a></li>
         </ul>
     </nav>
@@ -45,7 +78,7 @@
     
     
     <section id="projects">
-        <h2 id="project-title">Here some of my last projects</h2>
+        <h2 id="project-title">Projects</h2>
 
         <div class="project-grid">
             <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/itresse-landing" target="_blank">
