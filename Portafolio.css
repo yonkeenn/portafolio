@@ -200,6 +200,9 @@ a{
     border-radius: 2px;
 }
 
+.log{
+    display: inline-block;
+}
 
 
 .fab{
