@@ -91,6 +91,15 @@ a{
     animation: callToAction 3.5s linear 0s infinite;
 }
 
+.arrow-2{
+
+    position: relative;
+    bottom: 0;
+    -webkit-animation: callToAction 3.5s linear 0s infinite;
+    animation: callToAction 3.5s linear 0s infinite;
+}
+
+
 .icon-arrow-down{
     transition: all .5s;
 }
@@ -145,6 +154,16 @@ a{
     max-width: 70%;
     margin: 0 auto;
 
+
+}
+
+.project-blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
 
 }
 
@@ -213,21 +232,49 @@ a{
 
 }
 
+.btn3{
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+    border-radius: .5rem; 
+    border-style: solid; 
+    border-width: 1px;
+    text-transform: uppercase;
+    margin-right: auto; margin-left: auto; 
+
+}
+
+
 .grow { -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-transform: translateZ( 0 ); transform: translateZ( 0 ); transition: -webkit-transform .25s ease-out; transition: transform .25s ease-out; transition: transform .25s ease-out, -webkit-transform .25s ease-out; }
 .grow:hover, .grow:focus { -webkit-transform: scale( 1.05 ); transform: scale( 1.05 ); }
 .grow:active { -webkit-transform: scale( .90 ); transform: scale( .90 ); }
 
 .color-boton{
     color: white;
-    background-color: #0C687A;
+    background-color: #1bb60d;
 }
 
-
+.color-boton-2{
+    color: white;
+    background-color: #B60D35;
+}
 
 .color-boton:hover{
     color: white;
     background-color: #B60D35;
     border-color:  #B60D35;
+    transition: all 0.4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.color-boton-2:hover{
+    color: white;
+    background-color: #1bb60d;
+    border-color:  #1bb60d;
     transition: all 0.4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;

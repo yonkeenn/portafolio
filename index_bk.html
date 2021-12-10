@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Jhon Vargas</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portafolio.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        @media screen and (max-width: 30em)  {
+            #navbar{
+                display: block;
+            }
+
+            ul{
+                display: flex;
+                justify-content: center;
+                padding-left: 0px;
+            }
+
+            #navbar a p{
+                font-size: 1.5rem;
+                padding: 1rem 1rem;
+                margin: 0;
+                color: white;
+                font-weight: 700;
+                transition: transform 0.3s ease-out;
+                box-sizing: border-box;
+            }
+
+            #welcome-section-title{
+                font-size:3rem;
+                font-weight: 700;
+                margin: 0;
+            }
+
+            #welcome-section-subtitle{
+                color: #B60D35;
+                font-size: 1rem;
+                font-weight: 100;
+                font-style: italic;
+                margin: 0;
+            }
+            #contact1{
+                font-size: 3rem;
+            }
+            #contact2{
+                font-size: 1.5rem;
+            }
+
+            
+            #profile-link{
+                max-width: 80%;
+            }
+
+            .log{
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="container">
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section"><p>About</p></a></li>
+            <li><a href="#projects"><p>Projects</p></a></li>
+            <li><a href="#contact"><p>Contact</p></a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome-section">
+
+        <h1 id="welcome-section-title"> Hey I am Jhon Vargas</h1>
+        <p id="welcome-section-subtitle">Project&Technical Leader</p>
+        <div class=''>
+            <a href='./Resume_ENG_Jhon_Vargas_Updated.pdf' target="_blank" >
+                <button 
+                class="btn2 color-boton grow"
+                >
+                Resume Detail
+                </button>
+            </a>
+        
+        </div>
+        <a href="#projects" class="arrow"> 
+            <svg class="icon icon-arrow-down" width="60" height="60" viewBox="0 0 32 32"> 
+                <g id="icon-arrow-down">
+                    <path class="path1" d="M4.131 8.962c-0.434-0.429-1.134-0.429-1.566 0-0.432 0.427-0.432 1.122 0 1.55l12.653 12.528c0.434 0.429 1.133 0.429 1.566 0l12.653-12.528c0.432-0.429 0.434-1.122 0-1.55s-1.136-0.429-1.566-0.002l-11.87 11.426-11.869-11.424z" 
+                    fill="#B60D35" 
+                    ></path>
+                </g>
+            </svg> 
+        </a>
+    </section>
+    
+    
+    <section id="projects">
+        <h2 id="project-title">Projects</h2>
+        
+        <div class="project-grid">
+            <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/itresse-landing" target="_blank">
+                <img class="project-image" src="image1.png" alt="iTresse Landing Page">
+                <p>iTresse Agency</p>
+            </a>
+            <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/Seasons/" target="_blank">
+                <img class="project-image" src="image2.png" alt="Seasons Langins Page">
+                <p>Seasons Floristery</p>
+            </a>
+            <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/landing1/" target="_blank">
+                <img class="project-image" src="image3.png" alt="Yamheru Landing Page">
+                <p>Yamheru Floristery</p>
+            </a>
+            <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/Seasons/" target="_blank">
+                <img class="project-image" src="image2.png" alt="Seasons Langins Page">
+                <p>Seasons Floristery</p>
+            </a>
+            <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/landing1/" target="_blank">
+                <img class="project-image" src="image3.png" alt="Yamheru Landing Page">
+                <p>Yamheru Floristery</p>
+            </a>
+            <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/Seasons/" target="_blank">
+                <img class="project-image" src="image2.png" alt="Seasons Langins Page">
+                <p>Seasons Floristery</p>
+            </a>
+            <a id="profile-link" class="project-tile" href="https://github.com/yonkeenn/landing1/" target="_blank">
+                <img class="project-image" src="image3.png" alt="Yamheru Landing Page">
+                <p>Yamheru Floristery</p>
+            </a>
+        </div>
+
+    </section>
+
+</div>
+
+<section id="contact">
+
+    <div>
+        <h2 id="contact1">Let's work together...</h2>
+        <p id="contact2">How do you take your coffee?</p>
+    </div>
+    <div>
+
+        <a class="btn contact-details" href="https://github.com/yonkeenn" target="_blank">
+            <i class="fab fa-github"></i>
+            <p class="log">GitHub</p>
+        </a>
+
+
+        <a class="btn contact-details" href="https://www.linkedin.com/in/yonkeenn/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            <p class="log">LinkedIn</p>
+        </a>
+
+        <a class="btn contact-details" href="mailto:jhon.vargasr@gmail.com" target="_blank">
+            <i class="fas fa-at"></i>
+            <p class="log">Email</p>
+        </a>
+
+        <a class="btn contact-details" href="tel:+51-997502031" target="_blank">
+            <i class="fas fa-mobile-alt"></i>
+            <p class="log">Call me</p>
+        </a>
+
+    </div>
+
+</section>
+
+
+
+
+    <footer id="footer">
+    <p>© Created by Jhon Vargas</p>
+</footer>
+
+</body>
+</html>
